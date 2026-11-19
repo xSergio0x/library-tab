@@ -1,0 +1,15 @@
+body { font-family: Arial, sans-serif; margin: 20px; }
+.tabs { margin-bottom: 20px; }
+.tab-btn {
+    padding: 8px 16px;
+    margin-right: 4px;
+    cursor: pointer;
+    border: 1px solid #999;
+    background: #eee;
+}
+.tab-btn.active { background: #333; color: #fff; }
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #aaa; padding: 6px 10px; text-align: left; }
+th { background: #f0f0f0; }
